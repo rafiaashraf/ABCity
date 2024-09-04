@@ -1,0 +1,23 @@
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.utility-bar{
+  @apply w-3/4 text-3xl font-semibold bg-gradient-to-r from-cyan-500 py-2 rounded-md to-purple-800 px-4 flex sm:flex-row flex-col justify-between
+}
+.utility-bar-2{
+  @apply text-3xl font-semibold bg-gradient-to-r from-cyan-500 py-2 rounded-md to-purple-800 px-4 flex sm:flex-row flex-col justify-between
+}
+
+.utility-btn{
+  @apply border border-purple-500 hover:bg-white hover:text-black flex items-center gap-2
+}
+
+.utility-display{
+ @apply bg-white w-1/2 h-52 flex items-center justify-center rounded-md
+}
